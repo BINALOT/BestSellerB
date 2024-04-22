@@ -60,7 +60,7 @@ document.getElementById('root').innerHTML = products.map((item) => {
             <div class='bottom'>
                 <p>${title}</p>
                 <h2>PHP${price}.00</h2>
-                <button onclick='addToCart(${item.id})'>Add to cart</button>
+            
             </div>
         </div>`;
 }).join('');
